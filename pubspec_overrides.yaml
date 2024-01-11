@@ -1,0 +1,14 @@
+dependency_overrides:
+  # path: ^1.8.3
+  # http: ^1.0.0
+  starknet:
+    git:
+      # url: https://github.com/gabsn/starknet.dart
+      url: https://github.com/ptisserand/starknet.dart
+      path: packages/starknet
+      ref: fix/no-account-nonce-fallback
+  starknet_provider:
+    git:
+      url: https://github.com/ptisserand/starknet.dart
+      path: packages/starknet_provider
+      ref: fix/no-account-nonce-fallback
